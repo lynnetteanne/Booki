@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Booki</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="menu">
         <div class="logo">
-            <img src="Booki/images/logo/Booki.png" alt="Booki logo" title="Booki">
+            <img src="Booki/images/logo/Booki.png" alt="Booki logo" title="Booki"/>
      </div>       
         <div class="navigation">
             <ul>
-                <li>Accomodations</li>
-                <li>Activities</li>
+                <li><a href="#Accomodations"> Accomodations </a> </li>
+                <li> <a href="#Activities"> Activities </a></li>
             </ul>
         </div>    
     </div>
@@ -28,9 +29,11 @@
                 Downtown or in nature
             </p>
         </div>
-        <div>
-            search bar
-        </div>
+        <form>
+            <button id="=location">@</button>
+            <input type="text" name="place" placeholder="Your Location">
+            <input type="submit" value="Search">
+        </form>
         <div>
             filters
         </div>
