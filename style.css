@@ -1,13 +1,24 @@
 body {
-    background-color: antiquewhite;
-}
-
-#filter {
-    font-family: sans-serif;
-    font: Raleway;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navigation {
-    font-family: sans-serif;
-    font: Raleway;
+    float: right;
+}
+
+.navigation li {
+    display: inline;
+    margin:0 10px;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+#filter {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 20px;
 }
