@@ -4,15 +4,29 @@ body {
 
 .navigation {
     display: flex;
-    
+    /* justify-content: flex-end; */
 }
 
-
-
-#container {
-    display: flex;
+.navigation #logo {
+    background-color: blueviolet;
+}
+ 
+.navigation a {
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
 }
 
+.accomodations {
+    margin-left: auto;
+}
+
+.navigation a:hover {
+    border-top: 2px solid #0065FC;
+    color:#0065FC;
+}
 
 h2 {
     font-size: 20px;
