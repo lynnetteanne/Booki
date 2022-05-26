@@ -3,26 +3,16 @@ body {
 }
 
 .navigation {
-    float: right;
+    display: flex;
+    
 }
 
-.navigation li {
-    display: inline;
-    margin:0 10px;
+
+
+#container {
+    display: flex;
 }
 
-.navigation li a {
-    text-decoration: none;
-    padding: 20px;
-}
-
-.navigation li a:hover {
-    border-top: 2px solid #0065FC;
-} 
-
-form {
-    display: inline-block;
-}
 
 h2 {
     font-size: 20px;
