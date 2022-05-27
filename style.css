@@ -8,12 +8,13 @@ body {
 }
 
 .logo {
-    background-color: blueviolet;
+    display: flex;
+    align-self: flex-end;
+    height: 5%;
 }
  
 .navigation a {
-    background-color: aquamarine;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-right: 15px;
     text-decoration: none;
     color: black;
@@ -37,17 +38,38 @@ h2 {
 }
 
 .container > div {
-    padding-right: 30px;
-    padding-left: 5px;
+    padding-right: 7px;
     margin-right: 5px;
-    border: 1px solid blue;
-    border-radius: 10px;
+    border: 3px solid #f2f2f2;
+    border-radius: 25px;
+}
+
+.item {
+    font-weight: bold;
 }
 
 i {
     color:#0065FC;
+    background-color: #DEEBFF;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .title {
-    border: none:
+    display: inline-block;
+}
+
+#accomadations {
+    display: flex;
+    flex-direction: row;
+}
+
+#marseille {
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+#popular {
+    background-color: #F2F2F2;
+    border-radius: 5px;
 }
