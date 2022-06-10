@@ -57,7 +57,7 @@ i {
     border-radius: 50%;
 }
 
-.title {
+.filter {
     display: inline-block;
 }
 
@@ -74,4 +74,8 @@ i {
 #popular {
     background-color: #F2F2F2;
     border-radius: 5px;
+}
+
+.accomodations > div {
+    display: flex;
 }
