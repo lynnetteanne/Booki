@@ -77,7 +77,7 @@ i {
 }
 
 #list {
-    border-radius: 7px;
+    border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
@@ -85,7 +85,8 @@ i {
 
 .info {
     background-color: white;
-    margin: 10px;
+    margin: 20px;
+    border-radius: 20px;
 }
 /* #accomodations h2 {
     width: 100%;
@@ -95,9 +96,18 @@ i {
     align-self: flex-end;
 }
 
-.info img {
-    margin: 5px;
-    width: 99%;
+.crop {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   width: 400px;
+   height: 400px;
+   border-radius: 20px;
+}
+
+.titles>p {
+    margin-left: 15px;
 }
 
 #popular {
