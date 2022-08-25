@@ -84,7 +84,7 @@ i {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-right: 30px;
     width: 75%;
 }
@@ -123,11 +123,18 @@ figure {
 }
 
 .crop img {
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     min-height: 100%;
     min-width: 100%;
 }
 
+.crop2 img{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
 #popular {
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -135,6 +142,11 @@ figure {
 
 .titles {
     font-weight: 700;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
 }
 
 .footer {
